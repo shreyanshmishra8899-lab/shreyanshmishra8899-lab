@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="396" viewBox="0 0 760 396" role="img" aria-labelledby="card-title card-desc">
+<title id="card-title">Shreyansh info card</title>
+<desc id="card-desc">Terminal-style profile card for Shreyansh: Not employed yet - open to work.</desc>
+<style>
+  .bg { fill: #0d1117; }
+  .titlebar { fill: #161b22; }
+  .border { fill: none; stroke: #30363d; stroke-width: 1; }
+  .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; }
+  .label { fill: #39d353; font-weight: 600; }
+  .value { fill: #c9d1d9; }
+  .muted { fill: #8b949e; }
+  .row {
+    opacity: 0;
+    transform: translateY(4px);
+    animation: row-in 0.4s ease-out forwards;
+  }
+  @keyframes row-in {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .row { animation: none; opacity: 1; transform: none; }
+  }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="759" height="395" rx="8"/>
+<path class="titlebar" d="M0.5,8.5 a8,8 0 0 1 8,-8 h743 a8,8 0 0 1 8,8 v24 h-759 z"/>
+<circle cx="18" cy="16.0" r="5" fill="#ff5f56"/>
+<circle cx="36" cy="16.0" r="5" fill="#ffbd2e"/>
+<circle cx="54" cy="16.0" r="5" fill="#27c93f"/>
+<text class="mono muted" x="380.0" y="20.0" text-anchor="middle">whoami.sh</text>
+<rect class="border" x="0.5" y="0.5" width="759" height="395" rx="8"/>
+<line class="border" x1="0" y1="32" x2="760" y2="32"/>
+<text class="row mono" x="22" y="58" style="animation-delay:0.000s"><tspan class="label">user:</tspan><tspan class="value" x="160">Shreyansh@github</tspan></text>
+<text class="row mono" x="22" y="84" style="animation-delay:0.090s"><tspan class="label">status:</tspan><tspan class="value" x="160">Not employed yet - open to work</tspan></text>
+<text class="row mono" x="22" y="110" style="animation-delay:0.180s"><tspan class="label">experience:</tspan><tspan class="value" x="160">Internships at 2 companies</tspan></text>
+<text class="row mono" x="22" y="136" style="animation-delay:0.270s"><tspan class="label">languages:</tspan><tspan class="value" x="160">Python, C++, SQL</tspan></text>
+<text class="row mono" x="22" y="162" style="animation-delay:0.360s"><tspan class="label">ai/ml:</tspan><tspan class="value" x="160">Machine Learning, Deep Learning, Computer Vision, NLP,</tspan></text>
+<text class="row mono" x="22" y="182" style="animation-delay:0.360s"><tspan class="value" x="160">Transfer Learning, Model Fine-Tuning, Model</tspan></text>
+<text class="row mono" x="22" y="202" style="animation-delay:0.360s"><tspan class="value" x="160">Evaluation, Transformer Architectures</tspan></text>
+<text class="row mono" x="22" y="228" style="animation-delay:0.450s"><tspan class="label">llm &amp; agentic ai:</tspan><tspan class="value" x="160">LLMs, Generative AI, Agentic AI, Multi-Agent Systems,</tspan></text>
+<text class="row mono" x="22" y="248" style="animation-delay:0.450s"><tspan class="value" x="160">RAG, Hybrid Retrieval (BM25, Dense, RRF, MMR), Prompt</tspan></text>
+<text class="row mono" x="22" y="268" style="animation-delay:0.450s"><tspan class="value" x="160">Engineering, LLM Evaluation</tspan></text>
+<text class="row mono" x="22" y="294" style="animation-delay:0.540s"><tspan class="label">frameworks:</tspan><tspan class="value" x="160">PyTorch, TensorFlow, Scikit-learn, HF Transformers,</tspan></text>
+<text class="row mono" x="22" y="314" style="animation-delay:0.540s"><tspan class="value" x="160">LangChain, LangGraph, OpenCV, NetworkX</tspan></text>
+<text class="row mono" x="22" y="340" style="animation-delay:0.630s"><tspan class="label">data &amp; serving:</tspan><tspan class="value" x="160">FastAPI, REST APIs, ChromaDB, pgvector, Ollama, Gemini</tspan></text>
+<text class="row mono" x="22" y="360" style="animation-delay:0.630s"><tspan class="value" x="160">API, Local LLM Deployment, Git, Linux, OOP</tspan></text>
+</svg>

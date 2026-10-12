@@ -1,0 +1,71 @@
+name: Update profile art
+
+# Keeps contrib-heatmap.svg in sync with real GitHub contribution data.
+# Deliberately does NOT touch avi-ascii.svg or info-card.svg: those depend
+# on a local photo and rembg/opencv, which this workflow never installs
+# (see README.md "Regenerating assets locally").
+
+on:
+  schedule:
+    # 06:17 UTC daily. GitHub Actions schedules are best-effort and can
+    # slip by minutes during platform load -- see README "Troubleshooting".
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+
+# Least privilege: only the job that commits needs write access, and only
+# to contents (no issues/PR/etc. permissions are requested anywhere).
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-art-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    # Loop prevention is structural, not just [skip ci]: this workflow has
+    # no `push` trigger, so its own commit to the default branch cannot
+    # re-fire it. The actor check below is defense-in-depth only, in case
+    # a push trigger is ever added later without re-checking this file.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install heatmap-only dependencies
+        # Intentionally not `pip install -r scripts/requirements.txt`:
+        # that file also pulls in rembg/opencv/onnxruntime for the local
+        # photo pipeline, which this daily job never needs.
+        run: pip install requests==2.34.2 beautifulsoup4==4.15.0
+
+      - name: Fetch contribution data
+        id: fetch
+        env:
+          # Optional: add a repo secret named GH_CONTRIB_TOKEN (a PAT with
+          # no special scopes) to use the more reliable GraphQL fallback
+          # instead of scraping HTML. See README "GitHub Actions automation".
+          GH_CONTRIB_TOKEN: ${{ secrets.GH_CONTRIB_TOKEN }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/contributions.json contrib-heatmap.svg; then
+            echo "No changes to contribution data or heatmap; nothing to commit."
+            exit 0
+          fi
+          git add data/contributions.json contrib-heatmap.svg
+          git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git push

@@ -1,0 +1,23 @@
+# Full local/dev environment: everything needed to regenerate every asset
+# (heatmap, info card, and the ASCII portrait pipeline) and run the tests.
+#
+#   python -m venv .venv && . .venv/Scripts/activate   (Windows: .venv\Scripts\activate)
+#   pip install -r scripts/requirements.txt
+#
+# The daily GitHub Actions workflow installs only the "heatmap" group below
+# directly (no rembg/opencv/onnxruntime) -- see
+# .github/workflows/update-profile-art.yml.
+
+# --- heatmap + info card (lightweight, used by the daily workflow) ---
+requests==2.34.2
+beautifulsoup4==4.15.0
+
+# --- photo / ASCII-portrait pipeline (local-only, not in the workflow) ---
+pillow==12.3.0
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+rembg==2.0.85
+onnxruntime==1.31.0
+
+# --- tests ---
+pytest==9.1.1

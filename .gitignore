@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Caches / model downloads
+.cache/
+.u2net/
+*.onnx
+
+# Temporary / intermediate image artifacts
+*-prepped.png
+*-prepped.jpg
+*.tmp.png
+source-prepped.*
+tmp/
+scratch/
+
+# Secrets / local env
+.env
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

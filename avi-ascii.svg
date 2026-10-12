@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="744" viewBox="0 0 560 744" role="img" aria-labelledby="ascii-title">
+<title id="ascii-title">ASCII portrait</title>
+<style>
+  .ascii-bg { fill: #0d1117; }
+  .ascii-row {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 9.0px;
+    fill: #39d353;
+    white-space: pre;
+    opacity: 0;
+    animation: ascii-type 0.35s steps(1, end) forwards;
+  }
+  @keyframes ascii-type {
+    0% { opacity: 0; }
+    1% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ascii-row { animation: none; opacity: 1; }
+  }
+</style>
+<rect class="ascii-bg" x="0" y="0" width="560" height="744" rx="6"/>
+<text class="ascii-row" x="10" y="16.00" style="animation-delay:0.000s" xml:space="preserve">                                                                                                    </text>
+<text class="ascii-row" x="10" y="26.80" style="animation-delay:0.012s" xml:space="preserve">                                                                                                    </text>
+<text class="ascii-row" x="10" y="37.60" style="animation-delay:0.024s" xml:space="preserve">                                                                                                    </text>
+<text class="ascii-row" x="10" y="48.40" style="animation-delay:0.036s" xml:space="preserve">                                               ..                                                   </text>
+<text class="ascii-row" x="10" y="59.20" style="animation-delay:0.048s" xml:space="preserve">                                        .::-===+====-:`..                                           </text>
+<text class="ascii-row" x="10" y="70.00" style="animation-delay:0.060s" xml:space="preserve">                                      `++=++*c**c*****+++++=`                                       </text>
+<text class="ascii-row" x="10" y="80.80" style="animation-delay:0.072s" xml:space="preserve">                                    `+**++***cc+++c***sccc*sc*=                                     </text>
+<text class="ascii-row" x="10" y="91.60" style="animation-delay:0.084s" xml:space="preserve">                                   :c*+*c**sccccs*csssssscs#%ss.                                    </text>
+<text class="ascii-row" x="10" y="102.40" style="animation-delay:0.096s" xml:space="preserve">                                  :****cccc#sssss##s#########s+                                     </text>
+<text class="ascii-row" x="10" y="113.20" style="animation-delay:0.108s" xml:space="preserve">                                  *c**csss#########%###scssscc+                                     </text>
+<text class="ascii-row" x="10" y="124.00" style="animation-delay:0.120s" xml:space="preserve">                                  ccsssssscsssssssssc*===*cssc*                                     </text>
+<text class="ascii-row" x="10" y="134.80" style="animation-delay:0.132s" xml:space="preserve">                                  c##s=----:----===--:::::=cssc                                     </text>
+<text class="ascii-row" x="10" y="145.60" style="animation-delay:0.144s" xml:space="preserve">                                  =sc*-`.... ...``........`-csc                                     </text>
+<text class="ascii-row" x="10" y="156.40" style="animation-delay:0.156s" xml:space="preserve">                                  .cc=````::::::```--=+==:-`+c+`                                    </text>
+<text class="ascii-row" x="10" y="167.20" style="animation-delay:0.168s" xml:space="preserve">                                 .-:==+*=+*cssc*++**ccc*+++*=+-=:                                   </text>
+<text class="ascii-row" x="10" y="178.00" style="animation-delay:0.180s" xml:space="preserve">                                 `-`:=`=-=+***+=..++*++=---``+=-`                                   </text>
+<text class="ascii-row" x="10" y="188.80" style="animation-delay:0.192s" xml:space="preserve">                                  ::--```.```... .::``. ..``:=--                                    </text>
+<text class="ascii-row" x="10" y="199.60" style="animation-delay:0.204s" xml:space="preserve">                                   :`-`..  .`:::::=---`..`::--:.                                    </text>
+<text class="ascii-row" x="10" y="210.40" style="animation-delay:0.216s" xml:space="preserve">                                   .`:-`..`::`=*sssc+:`.``:-+=:                                     </text>
+<text class="ascii-row" x="10" y="221.20" style="animation-delay:0.228s" xml:space="preserve">                                    .-+-::::*c**+*ccc#c:`:=++                                       </text>
+<text class="ascii-row" x="10" y="232.00" style="animation-delay:0.240s" xml:space="preserve">                                      ++=-:=+---++++==+--=**:                                       </text>
+<text class="ascii-row" x="10" y="242.80" style="animation-delay:0.252s" xml:space="preserve">                                       +*+=--:`:-==-==++**c-                                        </text>
+<text class="ascii-row" x="10" y="253.60" style="animation-delay:0.264s" xml:space="preserve">                                       :-****+=+*c***csssc=                                         </text>
+<text class="ascii-row" x="10" y="264.40" style="animation-delay:0.276s" xml:space="preserve">                                      :c.:+ss##########sc=:                                         </text>
+<text class="ascii-row" x="10" y="275.20" style="animation-delay:0.288s" xml:space="preserve">                                     -cs-`:-+*ccccssccc+=-:-.                                       </text>
+<text class="ascii-row" x="10" y="286.00" style="animation-delay:0.300s" xml:space="preserve">                                   `*ccss-.:--=++*****+==-+`s=`                                     </text>
+<text class="ascii-row" x="10" y="296.80" style="animation-delay:0.312s" xml:space="preserve">                               .:+s*ccccss+ .:-==++**++=+c- #sccc+-`                                </text>
+<text class="ascii-row" x="10" y="307.60" style="animation-delay:0.324s" xml:space="preserve">                            .:=*c##*cccccssc`  :=+++++++c*  sscccs##c+-:`.                          </text>
+<text class="ascii-row" x="10" y="318.40" style="animation-delay:0.336s" xml:space="preserve">                        `:-++++*s##*cccccss#s`  .:-++==**:=:c#sccccs#sc*+*+=-:`.                    </text>
+<text class="ascii-row" x="10" y="329.20" style="animation-delay:0.348s" xml:space="preserve">                   .`:==++******cs####ssssssss``::`.===+:-=-c#ssscsss#sscc**c****+==:               </text>
+<text class="ascii-row" x="10" y="340.00" style="animation-delay:0.360s" xml:space="preserve">               .:-++++**********ccssccsssssssss-:`..===-.:-:c#ssssccc*ssscccccccc*csc:              </text>
+<text class="ascii-row" x="10" y="350.80" style="animation-delay:0.372s" xml:space="preserve">             `+****ccc**cc*******cssscssssssssss:.```--``::`*sssccccc*sccccccccccccsc+              </text>
+<text class="ascii-row" x="10" y="361.60" style="animation-delay:0.384s" xml:space="preserve">            .cccccsccccc*ccccc****ccssccssssssssc`.. .``:```*sssccccc*sccc***cccc*cscc+             </text>
+<text class="ascii-row" x="10" y="372.40" style="animation-delay:0.396s" xml:space="preserve">            =*ccccc****cc**cccc****cccssccsssssssc`. .`... .*ssscccc**s*****ccccc*scssc-            </text>
+<text class="ascii-row" x="10" y="383.20" style="animation-delay:0.408s" xml:space="preserve">            *c*+***csssccc**cc*cc***ccccsscsssssss*...   . .*sssccc**cc*****cccc**ssssc*-           </text>
+<text class="ascii-row" x="10" y="394.00" style="animation-delay:0.420s" xml:space="preserve">            =++++***ccccsssc**cccc***ccccsscsssssss+`      `*ssscccc*sc****cccc**c#scccc*`          </text>
+<text class="ascii-row" x="10" y="404.80" style="animation-delay:0.432s" xml:space="preserve">            =++++*******ccs#s**ccccc*cccccssssssssss=.     `csssccc**sc***ccccc*c#ssssccc+          </text>
+<text class="ascii-row" x="10" y="415.60" style="animation-delay:0.444s" xml:space="preserve">            =+++****ccccssss##c*csccc*cccccssssssssss:    .`csssccc*csccccccssccs%scccsscc:         </text>
+<text class="ascii-row" x="10" y="426.40" style="animation-delay:0.456s" xml:space="preserve">            =+********cccccc###cccssc**cccccsssssssssc.....`csssccc*sccccssssscs%#sccccccc+         </text>
+<text class="ascii-row" x="10" y="437.20" style="animation-delay:0.468s" xml:space="preserve">            -********ccccccss#%#ccsscc*ccccccsssssssss=....:csscccccscccsssssss#%sccccccsc*.        </text>
+<text class="ascii-row" x="10" y="448.00" style="animation-delay:0.480s" xml:space="preserve">            :***cccssssssccccccs#ssssc*cccccccs#sssss#s``..=cssscccssccssssssss%scccccscc***.       </text>
+<text class="ascii-row" x="10" y="458.80" style="animation-delay:0.492s" xml:space="preserve">             *ccsscccccccc*****cs#ssssccccccccss#ssss##+...+csssccc#scsssssss###sccccsccssc*-       </text>
+<text class="ascii-row" x="10" y="469.60" style="animation-delay:0.504s" xml:space="preserve">             =+*c***cc****+*ccc*cc#ssscccccccccss#ssss#s`.`cssssccssccsss#####%c=``++-:*cccc*-      </text>
+<text class="ascii-row" x="10" y="480.40" style="animation-delay:0.516s" xml:space="preserve">             :************cc******c##sccccccccccss#ssss#+.-ssssccsscsss######s=`::``::`:*****+`     </text>
+<text class="ascii-row" x="10" y="491.20" style="animation-delay:0.528s" xml:space="preserve">              *********************c##sssss###ssss##s###s`=sssscc#sss####%##=:::``::``:=cc***++.    </text>
+<text class="ascii-row" x="10" y="502.00" style="animation-delay:0.540s" xml:space="preserve">              :***c***********++****s%##########sss##s###=*sssscs#ss###%%%s:`:`:-:``:``*ccc***+=    </text>
+<text class="ascii-row" x="10" y="512.80" style="animation-delay:0.552s" xml:space="preserve">               +**ccccc******++******s#scccccc**+++cccc+=*ccccccsccs###%#+::::-=-=+===*cccccscc*`   </text>
+<text class="ascii-row" x="10" y="523.60" style="animation-delay:0.564s" xml:space="preserve">               .**cccccc********++**cc+-:::`````.`---==: :****+++++++++++++******ccccc*ccccccss*:   </text>
+<text class="ascii-row" x="10" y="534.40" style="animation-delay:0.576s" xml:space="preserve">                :*ccccc********++cssscc=:``......:--:--- `********+++***++*****cccccsccccsss#s#s-   </text>
+<text class="ascii-row" x="10" y="545.20" style="animation-delay:0.588s" xml:space="preserve">                 -*cccccc****++ssc*sscsc*+=-:`..`:+=--=-  **************ccccccccccccsssssss#s#ss-   </text>
+<text class="ascii-row" x="10" y="556.00" style="animation-delay:0.600s" xml:space="preserve">                  -*cccc****++**cssccscsc******++*s##s=`  +**********cc****ccsscccsssssssssssssc`   </text>
+<text class="ascii-row" x="10" y="566.80" style="animation-delay:0.612s" xml:space="preserve">                   -*ccccc***ccs#s**cssc*cc**cc*cs####s:``-***********ccccccccsssscssssssssssss*    </text>
+<text class="ascii-row" x="10" y="577.60" style="animation-delay:0.624s" xml:space="preserve">                    :**ccc****cs**csscccccccc**ccccsc#s#sc**************ccssscccssssssssssssssc:    </text>
+<text class="ascii-row" x="10" y="588.40" style="animation-delay:0.636s" xml:space="preserve">                     `**ccc******sscccccccc**cccsc*cscc###***ccccccccccccccccsssssss##sss####s+     </text>
+<text class="ascii-row" x="10" y="599.20" style="animation-delay:0.648s" xml:space="preserve">                      .+****cccccccccccccccsssc***cccs##ssccc*c*c*c***cccccccssssssss########+      </text>
+<text class="ascii-row" x="10" y="610.00" style="animation-delay:0.660s" xml:space="preserve">                        -***ccccccsssssssccccccsssssccccss##########*=+*cs#########scc*+=-:`        </text>
+<text class="ascii-row" x="10" y="620.80" style="animation-delay:0.672s" xml:space="preserve">                         +**ccsssssssssssssssssccccccssccccssssss###``cs#%%##%sc-.                  </text>
+<text class="ascii-row" x="10" y="631.60" style="animation-delay:0.684s" xml:space="preserve">                        :c++ccs###########sssssssssssccssssssssssss+`*#####ss#sc=                   </text>
+<text class="ascii-row" x="10" y="642.40" style="animation-delay:0.696s" xml:space="preserve">                        *+*****s##%%%%%%%%%%%%%%%######cscscscsssss###s###sssssc*.                  </text>
+<text class="ascii-row" x="10" y="653.20" style="animation-delay:0.708s" xml:space="preserve">                       -+*****ccss########sssssssssss############s#ssssssssssscc*+                  </text>
+<text class="ascii-row" x="10" y="664.00" style="animation-delay:0.720s" xml:space="preserve">                      .***+***cccccsssssssccccccccccccccccscccssssssssssss#ccccc**-                 </text>
+<text class="ascii-row" x="10" y="674.80" style="animation-delay:0.732s" xml:space="preserve">                      +***********cccccccc**ccccccccccccccc=-cccccccccssss#sccccc**`                </text>
+<text class="ascii-row" x="10" y="685.60" style="animation-delay:0.744s" xml:space="preserve">                     -*+****************#c**cccccc*********`.=cccccccccssss%ccccccc=                </text>
+<text class="ascii-row" x="10" y="696.40" style="animation-delay:0.756s" xml:space="preserve">                     +ccscccccccccc****ss***ccc***********+..`+*cccccccsssss#sssssc*                </text>
+<text class="ascii-row" x="10" y="707.20" style="animation-delay:0.768s" xml:space="preserve">                     **c************cccc*ccc**********+++*+==+cc**cccccssssccccccccc+               </text>
+<text class="ascii-row" x="10" y="718.00" style="animation-delay:0.780s" xml:space="preserve">                    -*ccc***************cc**********+++++*#ss#%#***ccccccsssscccccccc:              </text>
+<text class="ascii-row" x="10" y="728.80" style="animation-delay:0.792s" xml:space="preserve">                    +*c***++**********ccc*********+++++++c####%%s***ccccccssssccccccc*              </text>
+</svg>
